@@ -1,0 +1,70 @@
+{
+  "properties": [
+    {
+	  "name": "moments.serviceBasePath",
+	  "type": "java.lang.String",
+	  "description":
+	    "Base path on which this app is intented to be accessed. Used to generate URLs."
+	},
+    {
+	  "name": "moments.auth.jwtSecret",
+	  "type": "java.lang.String",
+	  "description":
+	    "JWT secret key."
+	},
+    {
+	  "name": "moments.auth.jwtExpirationMs",
+	  "type": "java.lang.Long",
+	  "description":
+	    "JWT expiration time in milliseconds."
+	},
+    {
+	  "name": "moments.auth.jwtRefreshExpirationMs",
+	  "type": "java.lang.Long",
+	  "description":
+	    "JWT refresh expiration time in milliseconds."
+	},
+    {
+	  "name": "moments.security.trustedClients",
+	  "type": "java.util.List",
+	  "description":
+	    "List of trusted clients addresses."
+	},
+    {
+	  "name": "moments.discord.botToken",
+	  "type": "java.lang.String",
+	  "description":
+	    "Discord bot token."
+	},
+    {
+	  "name": "moments.discord.channelID",
+	  "type": "java.lang.String",
+	  "description":
+	    "Channel ID where bot sends post notifications."
+	},
+    {
+	  "name": "moments.discord.postReferenceLink",
+	  "type": "java.lang.String",
+	  "description":
+	    "URL with {id} placeholder used to create link displayed in post notifications."
+	},
+    {
+	  "name": "moments.discord.defaultAvatarLink",
+	  "type": "java.lang.String",
+	  "description":
+	    "Link to default avatar image displayed in discord post notifications."
+	},
+	{
+	  "name": "moments.mail.accountActivationFromID",
+	  "type": "java.lang.String",
+	  "description":
+	    "Value of 'from' field used in account activation mails."
+	},
+	{
+	  "name": "moments.mail.passwordResetFromID",
+	  "type": "java.lang.String",
+	  "description":
+	    "Value of 'from' field used in password reset mails."
+	}
+  ]
+}

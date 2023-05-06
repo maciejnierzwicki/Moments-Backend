@@ -1,0 +1,13 @@
+spring:
+  mail:
+    host: smtp.mailtrap.io
+    username: user
+    password: password
+    protocol: smtp
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
